@@ -1,10 +1,38 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Nov 11, 2019, 1:58:31 AM
-    Author     : Okarin
-*/
+.registrationDiv{
+    background: linear-gradient(to top, #43c8e6 0%, #a56295 30%, #fc1ea9 55%, #fc3b2b 80%, #fb6523 100%);
+}
 
+.circle{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #111;
+    border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+}
+
+.text-right{
+    display: block;
+    margin-left: auto;
+}
+
+.text-left{
+    display: block;
+    margin-right: auto;
+}
+
+.videoResponsive{
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.videoResponsive iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
