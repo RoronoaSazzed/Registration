@@ -1,13 +1,80 @@
-.registrationDiv{
+/*
+Font families
+font-family: 'Jomolhari', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+body{
     background: linear-gradient(to top, #43c8e6 0%, #a56295 30%, #fc1ea9 55%, #fc3b2b 80%, #fb6523 100%);
+}
+
+h2, h3, h4{
+    font-family: 'Jomolhari', serif;
+    color: #ecf0f1;
+    text-transform: capitalize;
+    text-shadow: 0px 2px 2px black;
+}
+
+.footerRegistration h2{
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.padding50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.margin20{
+    margin-bottom: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.header{
+    background-color: #f6f6f6;
+    min-height: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.paddingTrial{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.button{
+    text-transform: capitalize;
+    padding: 5px 45px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    box-shadow: 0px 3px 10px black;
+    color: black;
+    font-weight: 600;
+}
+
+
+.registrationDiv{
+    min-height: 0px;
 }
 
 .circle{
     display: inline-block;
-    height: 20px;
-    width: 20px;
-    background-color: #111;
+    height: 15px;
+    width: 15px;
+    background-color: whitesmoke;
     border-radius: 50%;
+    box-shadow: 0px 3px 3px black;
 }
 
 .center{
@@ -15,13 +82,38 @@
 }
 
 .text-right{
-    display: block;
-    margin-left: auto;
+    text-align: right;
+}
+.text-left{
+    text-align: left;
 }
 
-.text-left{
-    display: block;
-    margin-right: auto;
+.preTextAvailability{
+    background-color: #e6e6e6;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.nameHolder{
+    height: 40px;
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 4px;
+}
+
+.mailandCode{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    width: 96%;
+    border-radius: 4px;
+}
+
+::placeholder{
+    font-family: 'Raleway', sans-serif;;
+    padding-left: 20px;
 }
 
 .videoResponsive{
@@ -35,4 +127,16 @@
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.inputDiv{
+    background-color: white;
+    padding: 20px;
+    border-bottom: 3px solid #525553;
+}
+
+.footerRegistration{
+    min-height: 0px;
+    padding-top:40px;
+    padding-bottom: 40px;
 }
