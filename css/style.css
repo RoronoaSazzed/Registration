@@ -5,6 +5,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 body{
+    background: -webkit-linear-gradient(bottom, #43c8e6 0%, #a56295 30%, #fc1ea9 55%, #fc3b2b 80%, #fb6523 100%);
     background: linear-gradient(to top, #43c8e6 0%, #a56295 30%, #fc1ea9 55%, #fc3b2b 80%, #fb6523 100%);
 }
 
@@ -109,6 +110,21 @@ h4{
     box-sizing: border-box;
     width: 96%;
     border-radius: 4px;
+}
+
+::-webkit-input-placeholder{
+    font-family: 'Raleway', sans-serif;;
+    padding-left: 20px;
+}
+
+::-moz-placeholder{
+    font-family: 'Raleway', sans-serif;;
+    padding-left: 20px;
+}
+
+:-ms-input-placeholder{
+    font-family: 'Raleway', sans-serif;;
+    padding-left: 20px;
 }
 
 ::placeholder{
